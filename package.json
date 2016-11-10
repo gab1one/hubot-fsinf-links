@@ -1,8 +1,8 @@
 {
-  "name": "hubot-thank-you",
-  "description": "A hubot script that accepts thanks",
-  "version": "0.0.3",
-  "author": "Lucas Videla <videla.lucas@gmail.com>",
+  "name": "hubot-fsinf-links",
+  "description": "A hubot script that posts FS links",
+  "version": "0.0.1",
+  "author": "Gabriel Einsdorf <mail@gabriel-einsdorf.de>",
   "license": "MIT",
   "keywords": [
     "hubot",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-thank-you.git"
+    "url": "git://github.com/gab1one/hubot-fsinf-links/.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-thank-you/issues"
+    "url": "https://github.com/gab1one/hubot-fsinf-links/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6"

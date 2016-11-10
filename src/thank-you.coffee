@@ -1,6 +1,5 @@
 # Description:
-#   Hubot responds any thank message politely. Phrases from:
-#   http://www.macmillandictionary.com/thesaurus-category/british/Ways-of-accepting-someone-s-thanks
+#   Hubot lists all fs links
 #
 # Dependencies:
 #   None
@@ -9,31 +8,19 @@
 #   None
 #
 # Commands:
-#   hubot thank[s] [you] - Hubot accepts your thanks
-#   thanks hubot - Hubot accepts your thanks
+#   hubot fslinks - Hubot post a list of links
+#   hubot fs-links - Hubot post a list of links
 #
 # Author:
-#   github.com/delucas
+#   github.com/gab1one
 #
 
-response = [
-  "you're welcome",
-  "no problem",
-  "not a problem",
-  "no problem at all",
-  "don’t mention it",
-  "it’s no bother",
-  "it’s my pleasure",
-  "my pleasure",
-  "it’s nothing",
-  "think nothing of it",
-  "no, no. thank you!",
-  "sure thing"
-]
+response =
+    """
+    <a href="https://www.fachschaft.inf.uni-konstanz.de/">FS-Website</a> \n
+    <a href="https://fsinf.edupad.uni-konstanz.de/ep/padlist/all-pads">Edupad</a> \n
+ """
 
 module.exports = (robot) ->
-  robot.respond /thank(s| you)/i, (msg) ->
-    msg.send msg.random response
-  thanks = new RegExp "thank(s| you) #{robot.name}", "i"
-  robot.hear thanks, (msg) ->
-    msg.send msg.random response
+  robot.respond /(fslinks| fs-links)/i, (msg) ->
+    msg.send response
