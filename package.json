@@ -1,7 +1,7 @@
 {
   "name": "hubot-fsinf-links",
   "description": "A hubot script that posts FS links",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Gabriel Einsdorf <mail@gabriel-einsdorf.de>",
   "license": "MIT",
   "keywords": [
@@ -21,7 +21,7 @@
   "devDependencies": {},
   "main": "index.coffee",
   "scripts": {
-      "test": "echo 'success!'",
-      "postversion": "git push && git push --tags"
+    "test": "echo 'success!'",
+    "postversion": "git push && git push --tags"
   }
 }
