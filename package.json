@@ -21,6 +21,7 @@
   "devDependencies": {},
   "main": "index.coffee",
   "scripts": {
-    "test": "echo 'success!'"
+      "test": "echo 'success!'",
+      "postversion": "git push && git push --tags"
   }
 }
