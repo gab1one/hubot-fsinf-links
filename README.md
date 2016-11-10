@@ -1,19 +1,19 @@
-# hubot-thank-you
+# hubot-fsinf-links
 
 A hubot script that posts links that are relevant to the FSINF
 
-See [`src/thank-you.coffee`](src/thank-you.coffee) for full documentation.
+See [`src/fsinf-links.coffee`](src/fsinf-links.coffee) for full documentation.
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-thank-you --save`
+`npm install hubot-fsinf-links --save`
 
-Then add **hubot-thank-you** to your `external-scripts.json`:
+Then add **hubot-fsinf-links** to your `external-scripts.json`:
 
 ```json
-["hubot-thank-you"]
+["hubot-fsinf-links"]
 ```
 
 ## Sample Interaction
