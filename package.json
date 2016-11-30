@@ -1,7 +1,7 @@
 {
   "name": "hubot-fsinf-links",
   "description": "A hubot script that posts FS links",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Gabriel Einsdorf <mail@gabriel-einsdorf.de>",
   "license": "MIT",
   "keywords": [
